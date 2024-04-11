@@ -1,0 +1,18 @@
+rules:
+  # Enabled rules
+  - B101
+  - B102
+  - B104
+  - B301
+  - B313
+  - B314
+  - B311
+
+  # Disabled rules
+  - B103
+  - B105
+  - B106
+  - B107
+
+exclude:
+  - "tests/*" 
