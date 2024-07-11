@@ -21,8 +21,8 @@ jobs:
         with:
           python-version: 3.11  # Choose your Python version
       - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@master
+        uses: codacy/codacy-analysis-cli-action@dbc063f58d05e0c77d55fc905e883e553d5da11b
       - name: Run Codacy Analysis CLI with Custom Registry
-        uses: codacy/codacy-analysis-cli-action@master
+        uses: codacy/codacy-analysis-cli-action@dbc063f58d05e0c77d55fc905e883e553d5da11b
         with:
           registry-address: 'test.io'
